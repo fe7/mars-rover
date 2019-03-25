@@ -8,12 +8,12 @@
 This reads input from input.txt. You can change inputs in there. A longer input set is in more_inputs.txt, copy data into input.txt to run those inputs.
 
 **To run tests (Mocha Chai):**
- - $ npm intall
+ - $ npm install
  - $ npm run test
 
 **Assumptions / program features:**
- - fist line of input file are plateau coordinates
- - following pair of lines are: (i) rover starting coordinates (ii) rover movment instructions string in order.
+ - first line of input file are plateau coordinates
+ - following pair of lines are: (i) rover starting coordinates (ii) rover movement instructions string in order.
  - plateau's lower bounds are 0,0, and upper bounds are from first line
  - may fail if give blank lines or incorrect set of data.
  - if rover lands out of bounds, then will not move. There may be a there may be a different program to navigate the terrain if landed out of the plateau
